@@ -1,0 +1,69 @@
+/* Algemene stijlen voor de body */
+body {
+    font-family: Arial, sans-serif; /* Lettertype voor de pagina */
+    background-color: #212121; /* Achtergrondkleur van de pagina */
+    margin: 0; /* Geen marge rond de body */
+    padding: 0; /* Geen padding rond de body */
+    height: 100vh; /* Zorgt ervoor dat de body de volledige hoogte van het venster heeft */
+    display: flex; /* Flexbox inschakelen voor centreren */
+    justify-content: center; /* Horizontaal centreren van de inhoud */
+    align-items: center; /* Verticaal centreren van de inhoud */
+    color: white; /* Tekstkleur wit voor betere leesbaarheid */
+}
+
+/* Stijlen voor het hoofdformulierelement */
+main {
+    width: 500px; /* Stel een vaste breedte in voor het formulier */
+    margin: auto; /* Automatische marge voor centreren */
+    background: #212121; /* Achtergrondkleur van het formulier */
+    padding: 20px; /* Padding binnen het formulier */
+    border-radius: 8px; /* Afgeronde hoeken van het formulier */
+    box-shadow: none; /* Schaduw verwijderd */
+}
+
+/* Stijlen voor het formulier zelf */
+form {
+    display: flex; /* Flexbox inschakelen voor het formulier */
+    flex-direction: column; /* Elementen verticaal stapelen */
+}
+
+/* Stijlen voor labels in het formulier */
+label {
+    margin-bottom: 5px; /* Ruimte onder het label */
+    font-weight: bold; /* Vetgedrukte tekst voor labels */
+}
+
+/* Stijlen voor invoervelden en selecties */
+input[type="text"],
+select {
+    padding: 10px; /* Padding binnen de invoervelden */
+    margin-bottom: 15px; /* Ruimte onder de invoervelden */
+    border: 1px solid #ccc; /* Lichte rand rond de invoervelden */
+    border-radius: 4px; /* Afgeronde hoeken van de invoervelden */
+    font-size: 16px; /* Lettergrootte voor de invoervelden */
+    color: black; /* Tekstkleur in invoervelden zwart voor contrast */
+    background-color: white; /* Achtergrondkleur van invoervelden wit */
+}
+
+/* Stijlen voor invoervelden en selecties bij focus */
+input[type="text"]:focus,
+select:focus {
+    border-color: #007BFF; /* Randkleur bij focus */
+    outline: none; /* Geen standaard focusomtrek */
+}
+
+/* Stijlen voor de verzendknop */
+button {
+    padding: 10px; /* Padding binnen de knop */
+    background-color: #007BFF; /* Achtergrondkleur van de knop */
+    color: white; /* Tekstkleur van de knop wit */
+    border: none; /* Geen rand rond de knop */
+    border-radius: 4px; /* Afgeronde hoeken van de knop */
+    cursor: pointer; /* Cursor verandert naar pointer bij hover */
+    font-size: 16px; /* Lettergrootte voor de knop */
+}
+
+/* Stijlen voor de knop bij hover */
+button:hover {
+    background-color: #0056b3; /* Donkerdere achtergrondkleur bij hover */
+}
