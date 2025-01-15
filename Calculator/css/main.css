@@ -1,0 +1,9 @@
+body {
+    background-color: #161616;
+    color: white;
+    font-family: Arial, sans-serif; /* Optioneel: een lettertype instellen */
+}
+
+h1, h2, h3, p {
+    margin: 0; /* Optioneel: marges resetten */
+}

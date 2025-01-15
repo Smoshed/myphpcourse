@@ -8,10 +8,11 @@
 </head>
 <body>
 
-    // String operator
+    <?php
 
-    $a = "Hello";
-    $b = "World";
     
+    
+    ?>
+
 </body>
 </html>

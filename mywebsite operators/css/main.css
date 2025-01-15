@@ -1,0 +1,7 @@
+body {
+    background-color: black; /* Zwarte achtergrond */
+    color: white; /* Witte tekst */
+    font-family: Arial, sans-serif; /* Optionele lettertype-instelling */
+    margin: 0; /* Verwijder standaard marge */
+    padding: 20px; /* Optionele padding */
+}
